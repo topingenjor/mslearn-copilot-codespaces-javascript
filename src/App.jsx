@@ -35,6 +35,23 @@ const siteProps = {
   youTube: "Code",
 };
 
+img.socialIcon;hover {
+  animation: bounce 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 const primaryColor = "#4E567E";
 const secondaryColor = "#D2F1E4";
 
