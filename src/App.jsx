@@ -24,7 +24,7 @@ import "./styles.css";
  * If you don't have one of the social sites listed, leave it as an empty string.
  */
 const siteProps = {
-  name: "Alexandrie Grenier",
+  name: "jee",
   title: "Web Designer & Content Creator",
   email: "alex@example.com",
   gitHub: "microsoft",
@@ -35,22 +35,6 @@ const siteProps = {
   youTube: "Code",
 };
 
-img.socialIcon;hover {
-  animation: bounce 0.5s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes bounce {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.2);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
 
 const primaryColor = "#4E567E";
 const secondaryColor = "#D2F1E4";
